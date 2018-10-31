@@ -11,6 +11,7 @@ html {
 
 h1 {
   font-size: 2rem;
+  text-align: center;
 }
 
 nav {
@@ -25,6 +26,10 @@ div {
   padding: 1.5rem;
   border-left: 1px solid #333;
   font-size: .875rem;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .btn-1 {
@@ -47,7 +52,18 @@ div {
   margin: 0 auto 1.5rem;
 }
 
-.btn .btn-small {
+.btn-small {
   padding: .875rem;
   margin: 0 0 1.5rem;
+  background-color: #333;
+  border-radius: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-small:hover {
+  background-color: #000;
 }
